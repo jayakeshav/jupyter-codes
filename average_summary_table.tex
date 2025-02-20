@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Average Values for Each Mode}
+\label{tab:average_summary}
+\begin{tabular}{lrrrrrrrrrrrrrrrrrrrr}
+\toprule
+ & Branch Instructions & Branch Misses & Cache Misses & Cache References & Executed Branch Instructions & Executed Branch Mispredictions & Executed Conditional Branch Mispredictions & Executed Conditional Branches & L1 Data Cache Load Misses & L1 Data Cache Loads & L2 All Demand Data Reads & L2 Demand Data Read Hits & Offcore All Data Reads LLC Any Response & Offcore All Data Reads LLC Miss to DRAM & Offcore Demand Data Reads LLC Hit Any Response & Offcore Demand Data Reads LLC Miss to DRAM & Retired Branch Instructions & Retired Branch Mispredictions & Retired Conditional Branches & Retired Near-Taken Branch Mispredictions \\
+\midrule
+Idle Mode Idle & 77652.79 & 2675.30 & 2738.78 & 8488.56 & 21689.79 & 2046.51 & 1814.48 & 30003.95 & 5928.93 & 32769.41 & 2736.05 & 1655.31 & 1144.19 & 260.53 & 686.75 & 225.28 & 5894.48 & 1925.60 & 5809.89 & 1019.79 \\
+Idle Mode Attack & 856426.64 & 9504.50 & 38063.77 & 48074.59 & 25288.48 & 8091.01 & 7498.51 & 28468.69 & 11406.93 & 28435.41 & 12862.51 & 4838.11 & 6419.73 & 5315.20 & 1146.32 & 5182.61 & 15020.21 & 7890.80 & 14945.31 & 2782.75 \\
+CPU Mode Idle & 3911820.28 & 10567.50 & 1778.81 & 59267.11 & 25665.07 & 12737.49 & 9160.83 & 33061.60 & 22243.04 & 39106.43 & 40901.07 & 40898.61 & 20100.91 & 608.05 & 15688.35 & 461.01 & 40912.40 & 10922.16 & 40910.32 & 5787.97 \\
+CPU Mode Attack & 3918355.43 & 12767.04 & 22537.66 & 69105.41 & 25771.15 & 14553.09 & 11106.21 & 32771.68 & 23001.01 & 36270.24 & 40956.96 & 38356.37 & 20324.53 & 4585.95 & 13232.56 & 4439.92 & 40965.01 & 12999.04 & 40963.17 & 6362.56 \\
+Memory Mode Idle & 765328.34 & 4415.41 & 230219.89 & 397942.51 & 24801.95 & 4333.47 & 2503.25 & 29791.39 & 14118.64 & 40287.20 & 39680.16 & 39573.60 & 17990.77 & 16686.93 & 17556.43 & 16475.92 & 39890.77 & 4003.09 & 39884.13 & 2936.59 \\
+Memory Mode Attack & 856278.53 & 5757.35 & 216797.13 & 389978.75 & 24500.35 & 6682.05 & 4627.79 & 31806.29 & 21199.15 & 39304.48 & 40345.04 & 36154.21 & 20136.48 & 19069.36 & 16138.45 & 18919.87 & 40522.03 & 6312.45 & 40519.52 & 3918.11 \\
+CPU + Memory Mode Idle & 2901046.85 & 103117.06 & 12286.21 & 238056.42 & 24788.53 & 40574.24 & 35814.45 & 33970.27 & 22586.72 & 41063.44 & 40814.03 & 40805.81 & 20485.36 & 6370.48 & 20460.35 & 5529.57 & 40897.31 & 40517.23 & 40894.43 & 40150.19 \\
+CPU + Memory Mode Attack & 3382581.35 & 120035.70 & 38637.53 & 254241.02 & 25209.60 & 36055.39 & 32211.20 & 33058.24 & 22048.00 & 39187.31 & 40961.07 & 37621.25 & 20459.44 & 9694.21 & 17019.04 & 8994.32 & 40962.83 & 35891.33 & 40963.49 & 33040.29 \\
+\bottomrule
+\end{tabular}
+\end{table}

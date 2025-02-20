@@ -1,0 +1,30 @@
+\begin{table}
+\caption{Transposed Average Values for Each Mode}
+\label{tab:transposed_average_summary}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+ & Idle Mode Idle & Idle Mode Attack & CPU Mode Idle & CPU Mode Attack & Memory Mode Idle & Memory Mode Attack & CPU + Memory Mode Idle & CPU + Memory Mode Attack \\
+\midrule
+Branch Instructions & 77652.79 & 856426.64 & 3911820.28 & 3918355.43 & 765328.34 & 856278.53 & 2901046.85 & 3382581.35 \\
+Branch Misses & 2675.30 & 9504.50 & 10567.50 & 12767.04 & 4415.41 & 5757.35 & 103117.06 & 120035.70 \\
+Cache Misses & 2738.78 & 38063.77 & 1778.81 & 22537.66 & 230219.89 & 216797.13 & 12286.21 & 38637.53 \\
+Cache References & 8488.56 & 48074.59 & 59267.11 & 69105.41 & 397942.51 & 389978.75 & 238056.42 & 254241.02 \\
+Executed Branch Instructions & 21689.79 & 25288.48 & 25665.07 & 25771.15 & 24801.95 & 24500.35 & 24788.53 & 25209.60 \\
+Executed Branch Mispredictions & 2046.51 & 8091.01 & 12737.49 & 14553.09 & 4333.47 & 6682.05 & 40574.24 & 36055.39 \\
+Executed Conditional Branch Mispredictions & 1814.48 & 7498.51 & 9160.83 & 11106.21 & 2503.25 & 4627.79 & 35814.45 & 32211.20 \\
+Executed Conditional Branches & 30003.95 & 28468.69 & 33061.60 & 32771.68 & 29791.39 & 31806.29 & 33970.27 & 33058.24 \\
+L1 Data Cache Load Misses & 5928.93 & 11406.93 & 22243.04 & 23001.01 & 14118.64 & 21199.15 & 22586.72 & 22048.00 \\
+L1 Data Cache Loads & 32769.41 & 28435.41 & 39106.43 & 36270.24 & 40287.20 & 39304.48 & 41063.44 & 39187.31 \\
+L2 All Demand Data Reads & 2736.05 & 12862.51 & 40901.07 & 40956.96 & 39680.16 & 40345.04 & 40814.03 & 40961.07 \\
+L2 Demand Data Read Hits & 1655.31 & 4838.11 & 40898.61 & 38356.37 & 39573.60 & 36154.21 & 40805.81 & 37621.25 \\
+Offcore All Data Reads LLC Any Response & 1144.19 & 6419.73 & 20100.91 & 20324.53 & 17990.77 & 20136.48 & 20485.36 & 20459.44 \\
+Offcore All Data Reads LLC Miss to DRAM & 260.53 & 5315.20 & 608.05 & 4585.95 & 16686.93 & 19069.36 & 6370.48 & 9694.21 \\
+Offcore Demand Data Reads LLC Hit Any Response & 686.75 & 1146.32 & 15688.35 & 13232.56 & 17556.43 & 16138.45 & 20460.35 & 17019.04 \\
+Offcore Demand Data Reads LLC Miss to DRAM & 225.28 & 5182.61 & 461.01 & 4439.92 & 16475.92 & 18919.87 & 5529.57 & 8994.32 \\
+Retired Branch Instructions & 5894.48 & 15020.21 & 40912.40 & 40965.01 & 39890.77 & 40522.03 & 40897.31 & 40962.83 \\
+Retired Branch Mispredictions & 1925.60 & 7890.80 & 10922.16 & 12999.04 & 4003.09 & 6312.45 & 40517.23 & 35891.33 \\
+Retired Conditional Branches & 5809.89 & 14945.31 & 40910.32 & 40963.17 & 39884.13 & 40519.52 & 40894.43 & 40963.49 \\
+Retired Near-Taken Branch Mispredictions & 1019.79 & 2782.75 & 5787.97 & 6362.56 & 2936.59 & 3918.11 & 40150.19 & 33040.29 \\
+\bottomrule
+\end{tabular}
+\end{table}
